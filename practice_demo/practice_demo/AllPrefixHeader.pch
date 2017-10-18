@@ -1,0 +1,31 @@
+//
+//  AllPrefixHeader.pch
+//  practice_demo
+//
+//  Created by 胡玉峰 on 2017/10/17.
+//  Copyright © 2017年 胡玉峰. All rights reserved.
+//
+
+#ifndef AllPrefixHeader_pch
+#define AllPrefixHeader_pch
+
+#define HYFColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define KMainBounds    [UIScreen mainScreen].bounds
+#define KMainWith      [UIScreen mainScreen].bounds.size.width
+#define KMainHeight    [UIScreen mainScreen].bounds.size.height
+
+
+
+#import "HBasicTableView.h"
+#import "HBasicViewController.h"
+
+
+//工具类
+#import "UIImage+HYF.h"
+#import "UIColor+HYF.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* AllPrefixHeader_pch */

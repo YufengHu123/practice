@@ -16,12 +16,20 @@
 		C40E2CF51F9785CD0050F42A /* HBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40E2CF41F9785CD0050F42A /* HBasicViewController.m */; };
 		C40E2CF91F978B940050F42A /* UIImage+HYF.m in Sources */ = {isa = PBXBuildFile; fileRef = C40E2CF81F978B940050F42A /* UIImage+HYF.m */; };
 		C40E2CFC1F978C4D0050F42A /* UIColor+HYF.m in Sources */ = {isa = PBXBuildFile; fileRef = C40E2CFB1F978C4D0050F42A /* UIColor+HYF.m */; };
+		C416E8791F9887C4006D5738 /* MethodExchangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C416E8781F9887C4006D5738 /* MethodExchangeViewController.m */; };
+		C416E87C1F988875006D5738 /* UIButton+HYF.m in Sources */ = {isa = PBXBuildFile; fileRef = C416E87B1F988875006D5738 /* UIButton+HYF.m */; };
+		C416E8801F988F4C006D5738 /* CommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C416E87F1F988F4C006D5738 /* CommonTool.m */; };
+		C427D9DD1F98E6FD00A11CD8 /* CutomKvoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C427D9DC1F98E6FD00A11CD8 /* CutomKvoViewController.m */; };
+		C427D9E01F98E71C00A11CD8 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = C427D9DF1F98E71C00A11CD8 /* Dog.m */; };
+		C450E4A52074645100F03A56 /* SDPracticeRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C450E4A42074645100F03A56 /* SDPracticeRootVC.m */; };
 		C4587D931F95CD4C003EF029 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4587D921F95CD4C003EF029 /* AppDelegate.m */; };
 		C4587D961F95CD4C003EF029 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4587D951F95CD4C003EF029 /* ViewController.m */; };
 		C4587D991F95CD4C003EF029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4587D971F95CD4C003EF029 /* Main.storyboard */; };
 		C4587D9B1F95CD4C003EF029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4587D9A1F95CD4C003EF029 /* Assets.xcassets */; };
 		C4587D9E1F95CD4C003EF029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4587D9C1F95CD4C003EF029 /* LaunchScreen.storyboard */; };
 		C4587DA11F95CD4C003EF029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4587DA01F95CD4C003EF029 /* main.m */; };
+		C4F9CFEC20760F6F0082046C /* GCDRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F9CFEB20760F6F0082046C /* GCDRootVC.m */; };
+		C4F9CFEF207611F80082046C /* UITableView+HYF.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F9CFEE207611F80082046C /* UITableView+HYF.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +51,18 @@
 		C40E2CF81F978B940050F42A /* UIImage+HYF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HYF.m"; sourceTree = "<group>"; };
 		C40E2CFA1F978C4D0050F42A /* UIColor+HYF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HYF.h"; sourceTree = "<group>"; };
 		C40E2CFB1F978C4D0050F42A /* UIColor+HYF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HYF.m"; sourceTree = "<group>"; };
+		C416E8771F9887C4006D5738 /* MethodExchangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodExchangeViewController.h; sourceTree = "<group>"; };
+		C416E8781F9887C4006D5738 /* MethodExchangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodExchangeViewController.m; sourceTree = "<group>"; };
+		C416E87A1F988875006D5738 /* UIButton+HYF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+HYF.h"; sourceTree = "<group>"; };
+		C416E87B1F988875006D5738 /* UIButton+HYF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HYF.m"; sourceTree = "<group>"; };
+		C416E87E1F988F4C006D5738 /* CommonTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonTool.h; sourceTree = "<group>"; };
+		C416E87F1F988F4C006D5738 /* CommonTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonTool.m; sourceTree = "<group>"; };
+		C427D9DB1F98E6FD00A11CD8 /* CutomKvoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CutomKvoViewController.h; sourceTree = "<group>"; };
+		C427D9DC1F98E6FD00A11CD8 /* CutomKvoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CutomKvoViewController.m; sourceTree = "<group>"; };
+		C427D9DE1F98E71C00A11CD8 /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		C427D9DF1F98E71C00A11CD8 /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		C450E4A32074645100F03A56 /* SDPracticeRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDPracticeRootVC.h; sourceTree = "<group>"; };
+		C450E4A42074645100F03A56 /* SDPracticeRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDPracticeRootVC.m; sourceTree = "<group>"; };
 		C4587D8E1F95CD4C003EF029 /* practice_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practice_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4587D911F95CD4C003EF029 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4587D921F95CD4C003EF029 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +74,10 @@
 		C4587D9F1F95CD4C003EF029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4587DA01F95CD4C003EF029 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4587DA81F95D6EF003EF029 /* AllPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllPrefixHeader.pch; sourceTree = "<group>"; };
+		C4F9CFEA20760F6F0082046C /* GCDRootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDRootVC.h; sourceTree = "<group>"; };
+		C4F9CFEB20760F6F0082046C /* GCDRootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDRootVC.m; sourceTree = "<group>"; };
+		C4F9CFED207611F80082046C /* UITableView+HYF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+HYF.h"; sourceTree = "<group>"; };
+		C4F9CFEE207611F80082046C /* UITableView+HYF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HYF.m"; sourceTree = "<group>"; };
 		E92A90F8204E03CF28C7F2A5 /* Pods-practice_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practice_demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-practice_demo/Pods-practice_demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,9 +148,52 @@
 				C40E2CF81F978B940050F42A /* UIImage+HYF.m */,
 				C40E2CFA1F978C4D0050F42A /* UIColor+HYF.h */,
 				C40E2CFB1F978C4D0050F42A /* UIColor+HYF.m */,
+				C416E87A1F988875006D5738 /* UIButton+HYF.h */,
+				C416E87B1F988875006D5738 /* UIButton+HYF.m */,
+				C4F9CFED207611F80082046C /* UITableView+HYF.h */,
+				C4F9CFEE207611F80082046C /* UITableView+HYF.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
+		};
+		C416E8761F9881B3006D5738 /* Method_Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				C416E8771F9887C4006D5738 /* MethodExchangeViewController.h */,
+				C416E8781F9887C4006D5738 /* MethodExchangeViewController.m */,
+			);
+			path = Method_Exchange;
+			sourceTree = "<group>";
+		};
+		C416E87D1F988F2E006D5738 /* CommonTool */ = {
+			isa = PBXGroup;
+			children = (
+				C416E87E1F988F4C006D5738 /* CommonTool.h */,
+				C416E87F1F988F4C006D5738 /* CommonTool.m */,
+			);
+			path = CommonTool;
+			sourceTree = "<group>";
+		};
+		C427D9E11F98ECC100A11CD8 /* CustomKVO */ = {
+			isa = PBXGroup;
+			children = (
+				C427D9DB1F98E6FD00A11CD8 /* CutomKvoViewController.h */,
+				C427D9DC1F98E6FD00A11CD8 /* CutomKvoViewController.m */,
+				C427D9DE1F98E71C00A11CD8 /* Dog.h */,
+				C427D9DF1F98E71C00A11CD8 /* Dog.m */,
+			);
+			path = CustomKVO;
+			sourceTree = "<group>";
+		};
+		C450E4A22074640600F03A56 /* sd_practice */ = {
+			isa = PBXGroup;
+			children = (
+				C450E4A32074645100F03A56 /* SDPracticeRootVC.h */,
+				C450E4A42074645100F03A56 /* SDPracticeRootVC.m */,
+			);
+			name = sd_practice;
+			path = practice_demo/sd_practice;
+			sourceTree = SOURCE_ROOT;
 		};
 		C4587D851F95CD4C003EF029 = {
 			isa = PBXGroup;
@@ -149,11 +216,14 @@
 		C4587D901F95CD4C003EF029 /* practice_demo */ = {
 			isa = PBXGroup;
 			children = (
+				C4F9CFE920760F550082046C /* GCD */,
+				C416E87D1F988F2E006D5738 /* CommonTool */,
 				C40E2CF61F978B200050F42A /* Category */,
 				C40E2CEC1F9782EE0050F42A /* BasicClass */,
 				C40E2CE51F977D2B0050F42A /* Animation_practice */,
 				C40E2CE41F977D2B0050F42A /* Runloop_practice */,
 				C4587DA71F95CD86003EF029 /* Runtime_practice */,
+				C450E4A22074640600F03A56 /* sd_practice */,
 				C4587D911F95CD4C003EF029 /* AppDelegate.h */,
 				C4587D921F95CD4C003EF029 /* AppDelegate.m */,
 				C4587D941F95CD4C003EF029 /* ViewController.h */,
@@ -171,10 +241,21 @@
 		C4587DA71F95CD86003EF029 /* Runtime_practice */ = {
 			isa = PBXGroup;
 			children = (
+				C427D9E11F98ECC100A11CD8 /* CustomKVO */,
+				C416E8761F9881B3006D5738 /* Method_Exchange */,
 				C40E2CE11F977C0F0050F42A /* RunTimeMenuViewController.h */,
 				C40E2CE21F977C0F0050F42A /* RunTimeMenuViewController.m */,
 			);
 			path = Runtime_practice;
+			sourceTree = "<group>";
+		};
+		C4F9CFE920760F550082046C /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				C4F9CFEA20760F6F0082046C /* GCDRootVC.h */,
+				C4F9CFEB20760F6F0082046C /* GCDRootVC.m */,
+			);
+			path = GCD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,9 +349,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-practice_demo/Pods-practice_demo-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -304,12 +388,20 @@
 			files = (
 				C4587D961F95CD4C003EF029 /* ViewController.m in Sources */,
 				C40E2CF21F97837C0050F42A /* HBasicTableView.m in Sources */,
+				C416E8801F988F4C006D5738 /* CommonTool.m in Sources */,
+				C4F9CFEF207611F80082046C /* UITableView+HYF.m in Sources */,
+				C427D9DD1F98E6FD00A11CD8 /* CutomKvoViewController.m in Sources */,
+				C416E87C1F988875006D5738 /* UIButton+HYF.m in Sources */,
 				C40E2CF51F9785CD0050F42A /* HBasicViewController.m in Sources */,
 				C4587DA11F95CD4C003EF029 /* main.m in Sources */,
 				C40E2CEF1F9783210050F42A /* HyfBasicTableViewController.m in Sources */,
 				C40E2CF91F978B940050F42A /* UIImage+HYF.m in Sources */,
+				C4F9CFEC20760F6F0082046C /* GCDRootVC.m in Sources */,
 				C40E2CEB1F977D6B0050F42A /* AnimationMenuViewController.m in Sources */,
+				C427D9E01F98E71C00A11CD8 /* Dog.m in Sources */,
 				C40E2CE81F977D4A0050F42A /* RunloopMenuViewController.m in Sources */,
+				C416E8791F9887C4006D5738 /* MethodExchangeViewController.m in Sources */,
+				C450E4A52074645100F03A56 /* SDPracticeRootVC.m in Sources */,
 				C40E2CE31F977C0F0050F42A /* RunTimeMenuViewController.m in Sources */,
 				C40E2CFC1F978C4D0050F42A /* UIColor+HYF.m in Sources */,
 				C4587D931F95CD4C003EF029 /* AppDelegate.m in Sources */,
@@ -449,6 +541,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8CQTPNDZRF;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = practice_demo/AllPrefixHeader.pch;
 				INFOPLIST_FILE = practice_demo/Info.plist;
@@ -467,6 +560,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8CQTPNDZRF;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = practice_demo/AllPrefixHeader.pch;
 				INFOPLIST_FILE = practice_demo/Info.plist;

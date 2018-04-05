@@ -1,0 +1,30 @@
+PODS:
+  - LEEAlert (1.1.3)
+  - LEETheme (1.1.6)
+  - SDAutoLayout (2.1.9)
+  - SDCycleScrollView (1.73):
+    - SDWebImage (~> 4.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SVProgressHUD (2.2.1)
+
+DEPENDENCIES:
+  - LEEAlert
+  - LEETheme
+  - SDAutoLayout (~> 2.1.3)
+  - SDCycleScrollView (~> 1.73)
+  - SDWebImage (~> 4.0)
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  LEEAlert: f68cdfe7c2917169332c7ca788aacd52b5afdb6a
+  LEETheme: 835782660bc4c3fe1c1f92a1d7a03c983b79b1e9
+  SDAutoLayout: 6b6f4db0d009dfc46cef14ef710dbb164e86616c
+  SDCycleScrollView: d0fd5fe40a80918371fd8939214eb3be81033d83
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SVProgressHUD: db27c54e6e18bc903341661fc9feb55e04905cc4
+
+PODFILE CHECKSUM: 497fa04e571c5191202ac535986fd11f52fefb44
+
+COCOAPODS: 1.4.0

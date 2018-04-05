@@ -1,0 +1,11 @@
+platform:ios, '8.0'
+
+target 'practice_demo' do  #工程名称
+    
+     pod 'SDAutoLayout', '~> 2.1.3'
+     pod 'LEEAlert'
+     pod 'LEETheme'
+     pod 'SVProgressHUD'
+     pod 'SDCycleScrollView','~> 1.73'
+     pod 'SDWebImage', '~> 4.0'
+end

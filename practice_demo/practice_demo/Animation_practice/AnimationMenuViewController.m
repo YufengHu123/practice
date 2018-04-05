@@ -55,6 +55,12 @@
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
+    [LEEAlert alert].config.LeeTitle(@"提示")
+    .LeeContent(@"runtime")
+    .LeeAction(@"确定", ^{
+        
+    }).LeeShow();
+    
     
 }
 -(HBasicTableView*)tableView{

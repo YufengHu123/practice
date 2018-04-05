@@ -44,7 +44,8 @@
     if (!cell) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:customCell];
     }
-    cell.textLabel.text = self.dataArr[indexPath.row];
+    NSDictionary * dict =self.dataArr[indexPath.row];
+    cell.textLabel.text = dict.allKeys[0] ;
     return cell;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -54,8 +55,8 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
-    
+    [self.navigationController pushViewController:[CommonTool getVCFunc:self.dataArr[indexPath.row]]
+                                         animated:YES];
 }
 -(HBasicTableView*)tableView{
     
@@ -77,9 +78,10 @@
 -(NSArray*)dataArr{
     
     if (!_dataArr) {
-        _dataArr = @[@"runtime_practice",
-                     @"runLoop_practice",
-                     @"animationi_practice"
+        _dataArr = @[
+                     @{@"runtime_Method_Exchange":@"MethodExchangeViewController"},
+                     @{@"runtime_custom_KVO":@"CutomKvoViewController"},
+                     @{@"runtime_Method_Exchange":@"MethodExchangeViewController"},
                      ];
     }
     

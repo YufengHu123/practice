@@ -21,9 +21,19 @@
 #import "HBasicViewController.h"
 
 
-//工具类
+//工具类 categray
 #import "UIImage+HYF.h"
 #import "UIColor+HYF.h"
+#import "UIButton+HYF.h"
+//工具类
+#import "CommonTool.h"
+
+//三方框架
+#import "LEEAlert.h"
+#import "LEETheme.h"
+#import "SDAutoLayout.h"
+#import "SVProgressHUD.h"
+#import "SDCycleScrollView.h"
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.

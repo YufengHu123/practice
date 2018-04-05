@@ -25,6 +25,8 @@
     self.window.rootViewController = rootVC;
     [self.window makeKeyAndVisible];
     
+    [LEEAlert configMainWindow:self.window];
+    
     // Override point for customization after application launch.
     return YES;
 }

@@ -7,9 +7,10 @@
 //
 
 #import "HBasicViewController.h"
+#import "HBasicTableView.h"
 
-@interface HBasicViewController ()
-
+@interface HBasicViewController ()<UITableViewDataSource,UITableViewDelegate>
+@property(nonatomic,strong) HBasicTableView * tableView;
 @end
 
 @implementation HBasicViewController
@@ -27,6 +28,10 @@
         self.navigationItem.leftBarButtonItem = backBtnItem;
     }
     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageWithColor:HYFColor(245, 200, 200) size:CGSizeMake(1, 1)] forBarMetrics:UIBarMetricsDefault];
+    self.view.backgroundColor = [UIColor whiteColor];
+    [self.view setBackgroundColor:HYFColor(210, 160, 140)];
+    
+    self.navigationController.interactivePopGestureRecognizer.delegate = (id)self;
 
 }
 
@@ -34,6 +39,28 @@
     
     [self.navigationController popViewControllerAnimated:YES];
 }
+#pragma mark tableView-delegate
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 0;
+}
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return nil;
+}
 
-
+-(HBasicTableView*)tableView{
+    if (!_tableView) {
+        _tableView = [[HBasicTableView alloc]initWithFrame:KMainBounds style:UITableViewStylePlain];
+        _tableView.backgroundColor = [UIColor whiteColor];
+        _tableView.showsVerticalScrollIndicator = NO;
+        _tableView.showsHorizontalScrollIndicator = NO;
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        _tableView.backgroundColor = [UIColor redColor];
+        _tableView.tableFooterView = [UIView new];
+        [_tableView setFrame:KMainBounds];
+        
+    }
+    return _tableView;
+}
 @end
